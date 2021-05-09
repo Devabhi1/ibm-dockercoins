@@ -8,6 +8,6 @@ RUN gem install thin
 WORKDIR /app
 COPY hasher.rb /app
 
-ENTRYPOINT ["ruby"}
+ENTRYPOINT ["ruby"]
 #CMD ruby hasher.rb
 CMD ["hasher.rb"]
